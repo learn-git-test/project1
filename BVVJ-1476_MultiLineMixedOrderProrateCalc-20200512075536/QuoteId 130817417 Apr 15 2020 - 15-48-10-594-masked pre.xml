@@ -1,0 +1,738 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<service>
+	<serviceHeader>
+		<billingSys>VISION_WEST</billingSys>
+		<clientId>VZW-NETACE</clientId>
+		<userId>MORAS2E</userId>
+		<serviceName>multiLineMixedOrderProrateCalc</serviceName>
+		<statusCode>00</statusCode>
+		<errorCode>00</errorCode>
+		<errorMsg />
+		<cicsErrorCode>00</cicsErrorCode>
+		<serverName>tdclpb6vva125</serverName>
+		<correlationId>d559f2bafae06fe9:53794a02:1717e83d49b:e3d:tdclpb6vva122T:GlobalRouter:tdclpb6vva125T:CompositeServi</correlationId>
+	</serviceHeader>
+	<serviceBody>
+		<serviceRequest>
+			<partialBillRequestIndicator>N</partialBillRequestIndicator>
+			<performLineValidation>N</performLineValidation>
+			<calculateOccsIndicator>Y</calculateOccsIndicator>
+			<createOrderLineItemList>
+				<createOrderLineItem>
+					<lineItemTypeCode>M</lineItemTypeCode>
+					<activationChangeLineItem>
+						<lineValidationItem>
+							<lineItemTypeCode>M</lineItemTypeCode>
+							<effectiveDate>03/23/2020</effectiveDate>
+							<curPricePlanDetails>
+								<pricePlanId>73571</pricePlanId>
+								<contractTermsId>35</contractTermsId>
+								<bgsaID>0</bgsaID>
+								<meaCode>N3T</meaCode>
+							</curPricePlanDetails>
+							<curMtnDetail>
+								<mtn>5034402489</mtn>
+								<min>5034405582</min>
+								<mtnEffectiveDate>06/17/2008</mtnEffectiveDate>
+							</curMtnDetail>
+							<curPhoneInfo>
+								<deviceId>89148000004853890948</deviceId>
+								<deviceIdType>ICC</deviceIdType>
+								<imei>356140097113959</imei>
+							</curPhoneInfo>
+							<newPricePlanDetails>
+								<pricePlanId>99999</pricePlanId>
+								<contractTermsId>35</contractTermsId>
+								<bgsaID>0</bgsaID>
+								<meaCode>N3T</meaCode>
+							</newPricePlanDetails>
+							<newMtnDetail>
+								<mtn>5034402489</mtn>
+								<min>5034405582</min>
+							</newMtnDetail>
+							<newPhoneInfo>
+								<deviceId>89148000004853890948</deviceId>
+								<deviceIdType>ICC</deviceIdType>
+								<imei>356140097113959</imei>
+							</newPhoneInfo>
+							<customerInfo>
+								<customerId>771263621-1</customerId>
+								<customerTypeCode>PE</customerTypeCode>
+							</customerInfo>
+							<featureList>
+								<features>
+									<specialFeatureOfferingId>25761</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>38422</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>48526</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>48553</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>48676</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>53217</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>68869</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>68870</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>68871</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>68872</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>68873</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>68874</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>68876</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>72709</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>D</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>73661</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>75440</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>75622</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>D</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>75632</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>75691</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>D</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>75802</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>75836</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>75837</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>76152</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>A</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>76286</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>D</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>76375</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>D</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>76404</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>A</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>76901</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>D</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>77249</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>A</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>77556</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>A</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>77568</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>A</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>77581</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>A</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>77583</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>A</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>79708</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>80148</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>A</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>81143</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>81158</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>81186</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>84015</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>A</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>84071</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>A</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>84076</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>A</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>84077</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>A</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>85553</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>A</specialFeatureOfferingActionInd>
+								</features>
+								<features>
+									<specialFeatureOfferingId>86869</specialFeatureOfferingId>
+									<specialFeatureOfferingActionInd>Z</specialFeatureOfferingActionInd>
+								</features>
+							</featureList>
+							<sharePlanInfoList>
+								<sharePlanInfo>
+									<oldSharePlanId>0</oldSharePlanId>
+									<newSharePlanId>97928</newSharePlanId>
+								</sharePlanInfo>
+							</sharePlanInfoList>
+							<productCorrelationId>132390000508796549</productCorrelationId>
+						</lineValidationItem>
+					</activationChangeLineItem>
+				</createOrderLineItem>
+			</createOrderLineItemList>
+		</serviceRequest>
+		<serviceResponse>
+			<nbsTrackingId />
+			<retrieveProduct_byCorrelationID>
+				<serviceError>
+					<statusCode>00</statusCode>
+					<errorCode>00</errorCode>
+					<errorMsg />
+					<warningCode>0</warningCode>
+					<warningMsg />
+					<cicsErrorCode>00</cicsErrorCode>
+				</serviceError>
+				<productOfferListCount>1</productOfferListCount>
+				<listOfProductCorrelation>
+					<productCorrelationItem>
+						<productCorrelationId>132390000508796549</productCorrelationId>
+						<customerId>771263621</customerId>
+						<accountNumber>1</accountNumber>
+						<fromAccountNumber>1</fromAccountNumber>
+						<fromCustomerId>771263621</fromCustomerId>
+						<productOrderType>C</productOrderType>
+						<lineOfServiceIdP2>771263621759601710</lineOfServiceIdP2>
+						<lineOfServiceIdP1>1000200</lineOfServiceIdP1>
+						<productOfferCount>2</productOfferCount>
+						<OfferTypeId>97928</OfferTypeId>
+						<OfferTypeCode>AP</OfferTypeCode>
+						<daccCdEqp>00867</daccCdEqp>
+						<daccCdSim>01027</daccCdSim>
+						<listOfProductOffers>
+							<productOfferInfo>
+								<productId>975</productId>
+								<uniqueId>0</uniqueId>
+								<reinstateIndicator>N</reinstateIndicator>
+								<ruleGroupIdLast>2081</ruleGroupIdLast>
+								<methodCode>A</methodCode>
+								<shopCartUniqueId>1109026536</shopCartUniqueId>
+								<productTrigLvlCode>A</productTrigLvlCode>
+								<productLevelCode>A</productLevelCode>
+								<productActionCode>A</productActionCode>
+								<eligibilityStartDate>03/23/2020</eligibilityStartDate>
+								<eligibilityEndDate>12/31/9999</eligibilityEndDate>
+								<productElectiveCode />
+								<originCode />
+								<productMethodCode>A</productMethodCode>
+								<contractTermId>0</contractTermId>
+								<productIdTrigger>0</productIdTrigger>
+								<productCatCodeList>
+									<productCategoryCode>ACCESSDISC</productCategoryCode>
+									<productCategoryCode>AUTOPAY</productCategoryCode>
+									<productCategoryCode>DISCPROMO</productCategoryCode>
+									<productCategoryCode>PAPERFREE</productCategoryCode>
+								</productCatCodeList>
+							</productOfferInfo>
+							<productOfferInfo>
+								<productId>671</productId>
+								<uniqueId>0</uniqueId>
+								<reinstateIndicator>N</reinstateIndicator>
+								<ruleGroupIdLast>1201</ruleGroupIdLast>
+								<methodCode>A</methodCode>
+								<shopCartUniqueId>1109026535</shopCartUniqueId>
+								<productTrigLvlCode>A</productTrigLvlCode>
+								<productLevelCode>A</productLevelCode>
+								<productActionCode>A</productActionCode>
+								<eligibilityStartDate>03/23/2020</eligibilityStartDate>
+								<eligibilityEndDate>12/31/9999</eligibilityEndDate>
+								<productElectiveCode />
+								<originCode />
+								<productMethodCode>A</productMethodCode>
+								<contractTermId>0</contractTermId>
+								<productIdTrigger>0</productIdTrigger>
+								<productCatCodeList>
+									<productCategoryCode>ADS</productCategoryCode>
+									<productCategoryCode>DATABANK</productCategoryCode>
+								</productCatCodeList>
+							</productOfferInfo>
+						</listOfProductOffers>
+					</productCorrelationItem>
+				</listOfProductCorrelation>
+			</retrieveProduct_byCorrelationID>
+			<billProrateCalc_NONE>
+				<serviceError>
+					<statusCode>00</statusCode>
+					<errorCode>00</errorCode>
+					<errorMsg />
+					<warningCode>0</warningCode>
+					<warningMsg />
+					<cicsErrorCode>00</cicsErrorCode>
+				</serviceError>
+				<billCycleStartDate>03/23/2020</billCycleStartDate>
+				<billCycleEndDate>04/22/2020</billCycleEndDate>
+				<nextBillCycleStartDate>04/23/2020</nextBillCycleStartDate>
+				<nextBillCycleEndDate>05/22/2020</nextBillCycleEndDate>
+				<prevBillCycleStartDate>02/23/2020</prevBillCycleStartDate>
+				<prevBillCycleEndDate>03/22/2020</prevBillCycleEndDate>
+				<partialBillIndicator />
+				<languageIndicator />
+				<splanNextBillAccessTotal>70.00</splanNextBillAccessTotal>
+				<splanNewMonthlyAccessTotal>35.00</splanNewMonthlyAccessTotal>
+				<splanPreviousMonthlyAccessTotal>0.00</splanPreviousMonthlyAccessTotal>
+				<accountOccNextBillTotal>0.00</accountOccNextBillTotal>
+				<accountEquipmentChargeNextBillTotal>0.00</accountEquipmentChargeNextBillTotal>
+				<accountEquipmentChargeNewMonthlyTotal>0.00</accountEquipmentChargeNewMonthlyTotal>
+				<accountEquipmentChargePreviousMonthlyTotal>0.00</accountEquipmentChargePreviousMonthlyTotal>
+				<nextMonthGrandTotal>91.87</nextMonthGrandTotal>
+				<newMonthGrandTotal>73.28</newMonthGrandTotal>
+				<prevMonthGrandTotal>49.57</prevMonthGrandTotal>
+				<nextTaxGrandTotal>2.28</nextTaxGrandTotal>
+				<newTaxGrandTotal>3.70</newTaxGrandTotal>
+				<nextMonthGrandTotalWithUnadjustedBalance>91.87</nextMonthGrandTotalWithUnadjustedBalance>
+				<mobileFirstTotalNext>
+					<accountMonthlyRecurringCharges>35.00</accountMonthlyRecurringCharges>
+					<mtnMonthlyRecurringCharges>34.58</mtnMonthlyRecurringCharges>
+					<accountOneTimeCharges>35.00</accountOneTimeCharges>
+					<mtnOneTimeCharges>-14.99</mtnOneTimeCharges>
+					<totalOneTimeCharges>20.01</totalOneTimeCharges>
+					<totalMrc>74.58</totalMrc>
+					<totalAddon>0.00</totalAddon>
+					<totalTax>1.10</totalTax>
+					<accountUnadjustedBalance>0.00</accountUnadjustedBalance>
+					<totalSurcharges>1.18</totalSurcharges>
+					<accountTax>0.00</accountTax>
+					<accountSurcharges>0.00</accountSurcharges>
+					<totalDiscount>-10.00</totalDiscount>
+					<totalDevicePayments>14.58</totalDevicePayments>
+				</mobileFirstTotalNext>
+				<mobileFirstTotalNew>
+					<accountMonthlyRecurringCharges>35.00</accountMonthlyRecurringCharges>
+					<mtnMonthlyRecurringCharges>34.58</mtnMonthlyRecurringCharges>
+					<accountOneTimeCharges>0.00</accountOneTimeCharges>
+					<mtnOneTimeCharges>0.00</mtnOneTimeCharges>
+					<totalOneTimeCharges>0.00</totalOneTimeCharges>
+					<totalMrc>74.58</totalMrc>
+					<totalAddon>0.00</totalAddon>
+					<totalTax>1.10</totalTax>
+					<totalSurcharges>2.60</totalSurcharges>
+					<accountTax>0.00</accountTax>
+					<accountSurcharges>0.00</accountSurcharges>
+					<totalDiscount>-5.00</totalDiscount>
+					<totalDevicePayments>14.58</totalDevicePayments>
+				</mobileFirstTotalNew>
+				<datedTransType>2</datedTransType>
+				<splanInfoList>
+					<planInfoItem>
+						<omaInd>M</omaInd>
+						<planGridIndicator>N</planGridIndicator>
+						<planId>97928</planId>
+						<planDescription>NEW VERIZON SINGLE SMRTPHN 5GB</planDescription>
+						<planComponentType>VD</planComponentType>
+						<planListPrice>40.00</planListPrice>
+						<planNetAccess>40.00</planNetAccess>
+						<planAllowanceList />
+						<planRateList />
+						<planProratedInfo>
+							<proratedInfoItemList>
+								<proratedInfoItem>
+									<prorateAdvancedIndicator>N</prorateAdvancedIndicator>
+									<prorateOmaInd>O</prorateOmaInd>
+									<prorateEffectiveDate>03/23/2020</prorateEffectiveDate>
+									<prorateEndDate>04/22/2020</prorateEndDate>
+									<proratePrice>40.00</proratePrice>
+									<prorateNetPrice>40.00</prorateNetPrice>
+									<periodIndicator>F</periodIndicator>
+									<proratePromotion1Id>0</proratePromotion1Id>
+									<proratePromotion1Description />
+									<proratePromotion1Discount>0.00</proratePromotion1Discount>
+									<proratePromotion1EndDate />
+									<proratePromotion2Id>0</proratePromotion2Id>
+									<proratePromotion2Description />
+									<proratePromotion2Discount>0.00</proratePromotion2Discount>
+									<proratePromotion2EndDate />
+									<proratePromotion3Id>0</proratePromotion3Id>
+									<proratePromotion3Description />
+									<proratePromotion3Discount>0.00</proratePromotion3Discount>
+									<proratePromotion3EndDate />
+								</proratedInfoItem>
+								<proratedInfoItem>
+									<prorateAdvancedIndicator>Y</prorateAdvancedIndicator>
+									<prorateOmaInd />
+									<prorateEffectiveDate>04/23/2020</prorateEffectiveDate>
+									<prorateEndDate>05/22/2020</prorateEndDate>
+									<proratePrice>40.00</proratePrice>
+									<prorateNetPrice>40.00</prorateNetPrice>
+									<periodIndicator>F</periodIndicator>
+									<proratePromotion1Id>0</proratePromotion1Id>
+									<proratePromotion1Description />
+									<proratePromotion1Discount>0.00</proratePromotion1Discount>
+									<proratePromotion1EndDate />
+									<proratePromotion2Id>0</proratePromotion2Id>
+									<proratePromotion2Description />
+									<proratePromotion2Discount>0.00</proratePromotion2Discount>
+									<proratePromotion2EndDate />
+									<proratePromotion3Id>0</proratePromotion3Id>
+									<proratePromotion3Description />
+									<proratePromotion3Discount>0.00</proratePromotion3Discount>
+									<proratePromotion3EndDate />
+								</proratedInfoItem>
+							</proratedInfoItemList>
+							<prorateTotalPrice>80.00</prorateTotalPrice>
+							<prorateAllowanceEffectiveDate />
+							<prorateAllowanceEndDate />
+						</planProratedInfo>
+						<planDragonIndicator>Y</planDragonIndicator>
+						<planPromotion1Id>0</planPromotion1Id>
+						<planPromotion1Description />
+						<planPromotion1Discount>0.00</planPromotion1Discount>
+						<planPromotion1EndDate />
+						<planPromotion2Id>0</planPromotion2Id>
+						<planPromotion2Description />
+						<planPromotion2Discount>0.00</planPromotion2Discount>
+						<planPromotion2EndDate />
+						<planPromotion3Id>0</planPromotion3Id>
+						<planPromotion3Description />
+						<planPromotion3Discount>0.00</planPromotion3Discount>
+						<planPromotion3EndDate />
+						<dataAllowanceDescription>5GB-Data Unlimited-Talk Unlimited-Text</dataAllowanceDescription>
+						<overageDescription>Overage $15/ 1GB-Data</overageDescription>
+					</planInfoItem>
+				</splanInfoList>
+				<mtnAcctFootNotes />
+				<prorateCalcList>
+					<prorateCalcItem>
+						<mtn>5034402489</mtn>
+						<pplanNextBillAccessTotal>-34.99</pplanNextBillAccessTotal>
+						<pplanNewMonthlyAccessTotal>0.00</pplanNewMonthlyAccessTotal>
+						<pplanPreviousMonthlyAccessTotal>34.99</pplanPreviousMonthlyAccessTotal>
+						<sfoNextBillAccessTotal>0.00</sfoNextBillAccessTotal>
+						<sfoNewMonthlyAccessTotal>0.00</sfoNewMonthlyAccessTotal>
+						<sfoPreviousMonthlyAccessTotal>0.00</sfoPreviousMonthlyAccessTotal>
+						<nafNextBillAccessTotal>40.00</nafNextBillAccessTotal>
+						<nafNewMonthlyAccessTotal>20.00</nafNewMonthlyAccessTotal>
+						<nafPreviousMonthlyAccessTotal>0.00</nafPreviousMonthlyAccessTotal>
+						<occNextBillTotal>0.00</occNextBillTotal>
+						<equipmentChargeNextBillTotal>14.58</equipmentChargeNextBillTotal>
+						<equipmentChargeNewMonthlyTotal>14.58</equipmentChargeNewMonthlyTotal>
+						<equipmentChargePreviousMonthlyTotal>14.58</equipmentChargePreviousMonthlyTotal>
+						<mtnNickName>Verizon Customer</mtnNickName>
+						<mtnChangedIndicator>Y</mtnChangedIndicator>
+						<mtnNextMonthTotal>19.59</mtnNextMonthTotal>
+						<mtnNewMonthTotal>34.58</mtnNewMonthTotal>
+						<mtnPrevMonthTotal>49.57</mtnPrevMonthTotal>
+						<pplanInfoList>
+							<planInfoItem>
+								<omaInd />
+								<planGridIndicator>P</planGridIndicator>
+								<planId>73571</planId>
+								<planDescription>NATIONWIDE 300</planDescription>
+								<planComponentType />
+								<planListPrice>34.99</planListPrice>
+								<planNetAccess>34.99</planNetAccess>
+								<planAllowanceList />
+								<planRateList />
+								<planProratedInfo>
+									<proratedInfoItemList>
+										<proratedInfoItem>
+											<prorateAdvancedIndicator>N</prorateAdvancedIndicator>
+											<prorateOmaInd>O</prorateOmaInd>
+											<prorateEffectiveDate>03/23/2020</prorateEffectiveDate>
+											<prorateEndDate>04/22/2020</prorateEndDate>
+											<proratePrice>-34.99</proratePrice>
+											<prorateNetPrice>-34.99</prorateNetPrice>
+											<periodIndicator>F</periodIndicator>
+											<proratePromotion1Id>0</proratePromotion1Id>
+											<proratePromotion1Description />
+											<proratePromotion1Discount>0.00</proratePromotion1Discount>
+											<proratePromotion1EndDate />
+											<proratePromotion2Id>0</proratePromotion2Id>
+											<proratePromotion2Description />
+											<proratePromotion2Discount>0.00</proratePromotion2Discount>
+											<proratePromotion2EndDate />
+											<proratePromotion3Id>0</proratePromotion3Id>
+											<proratePromotion3Description />
+											<proratePromotion3Discount>0.00</proratePromotion3Discount>
+											<proratePromotion3EndDate />
+										</proratedInfoItem>
+									</proratedInfoItemList>
+									<prorateTotalPrice>-34.99</prorateTotalPrice>
+									<prorateAllowanceEffectiveDate />
+									<prorateAllowanceEndDate />
+								</planProratedInfo>
+								<planDragonIndicator />
+								<planPromotion1Id>0</planPromotion1Id>
+								<planPromotion1Description />
+								<planPromotion1Discount>0.00</planPromotion1Discount>
+								<planPromotion1EndDate />
+								<planPromotion2Id>0</planPromotion2Id>
+								<planPromotion2Description />
+								<planPromotion2Discount>0.00</planPromotion2Discount>
+								<planPromotion2EndDate />
+								<planPromotion3Id>0</planPromotion3Id>
+								<planPromotion3Description />
+								<planPromotion3Discount>0.00</planPromotion3Discount>
+								<planPromotion3EndDate />
+								<dataAllowanceDescription />
+								<overageDescription />
+								<pricePlanPricingTierNumber>0</pricePlanPricingTierNumber>
+								<pricePlanTierSchemaNumber>0</pricePlanTierSchemaNumber>
+								<pricePlanCategoryCode />
+								<pricePlanCollectCode />
+								<pplanOffrTypGrpNo>0</pplanOffrTypGrpNo>
+							</planInfoItem>
+						</pplanInfoList>
+						<sfoInfoList />
+						<featureInfoList />
+						<nafInfoList>
+							<nafInfo>
+								<omaInd>M</omaInd>
+								<nafGridIndicator>N</nafGridIndicator>
+								<nafSfoId>84015</nafSfoId>
+								<nafCategoryCode>VMDF</nafCategoryCode>
+								<nafName>SMARTPHONE LINE ACCESS</nafName>
+								<nafPrice>20.00</nafPrice>
+								<nafNetPrice>20.00</nafNetPrice>
+								<nafProratedTotalPrice>40.00</nafProratedTotalPrice>
+								<nafProratedInfoItemList>
+									<proratedInfoItem>
+										<prorateAdvancedIndicator>N</prorateAdvancedIndicator>
+										<prorateOmaInd>O</prorateOmaInd>
+										<prorateEffectiveDate>03/23/2020</prorateEffectiveDate>
+										<prorateEndDate>04/22/2020</prorateEndDate>
+										<proratePrice>20.00</proratePrice>
+										<prorateNetPrice>20.00</prorateNetPrice>
+										<periodIndicator>F</periodIndicator>
+										<proratePromotion1Id>0</proratePromotion1Id>
+										<proratePromotion1Description />
+										<proratePromotion1Discount>0.00</proratePromotion1Discount>
+										<proratePromotion1EndDate />
+										<proratePromotion2Id>0</proratePromotion2Id>
+										<proratePromotion2Description />
+										<proratePromotion2Discount>0.00</proratePromotion2Discount>
+										<proratePromotion2EndDate />
+										<proratePromotion3Id>0</proratePromotion3Id>
+										<proratePromotion3Description />
+										<proratePromotion3Discount>0.00</proratePromotion3Discount>
+										<proratePromotion3EndDate />
+									</proratedInfoItem>
+									<proratedInfoItem>
+										<prorateAdvancedIndicator>Y</prorateAdvancedIndicator>
+										<prorateOmaInd />
+										<prorateEffectiveDate>04/23/2020</prorateEffectiveDate>
+										<prorateEndDate>05/22/2020</prorateEndDate>
+										<proratePrice>20.00</proratePrice>
+										<prorateNetPrice>20.00</prorateNetPrice>
+										<periodIndicator>F</periodIndicator>
+										<proratePromotion1Id>0</proratePromotion1Id>
+										<proratePromotion1Description />
+										<proratePromotion1Discount>0.00</proratePromotion1Discount>
+										<proratePromotion1EndDate />
+										<proratePromotion2Id>0</proratePromotion2Id>
+										<proratePromotion2Description />
+										<proratePromotion2Discount>0.00</proratePromotion2Discount>
+										<proratePromotion2EndDate />
+										<proratePromotion3Id>0</proratePromotion3Id>
+										<proratePromotion3Description />
+										<proratePromotion3Discount>0.00</proratePromotion3Discount>
+										<proratePromotion3EndDate />
+									</proratedInfoItem>
+								</nafProratedInfoItemList>
+								<nafPromotion1Id>0</nafPromotion1Id>
+								<nafPromotion1Description />
+								<nafPromotion1Discount>0.00</nafPromotion1Discount>
+								<nafPromotion1EndDate />
+								<nafPromotion2Id>0</nafPromotion2Id>
+								<nafPromotion2Description />
+								<nafPromotion2Discount>0.00</nafPromotion2Discount>
+								<nafPromotion2EndDate />
+								<nafPromotion3Id>0</nafPromotion3Id>
+								<nafPromotion3Description />
+								<nafPromotion3Discount>0.00</nafPromotion3Discount>
+								<nafPromotion3EndDate />
+							</nafInfo>
+						</nafInfoList>
+						<promotionInfoList />
+						<occInfo />
+						<equipmentChargeInfoList>
+							<equipmentChargeInfoItem>
+								<omaInd>M</omaInd>
+								<equipmentChargeGridIndicator>B</equipmentChargeGridIndicator>
+								<equipmentChargeDescription>Device Payment</equipmentChargeDescription>
+								<newEquipmentChargeAmount>14.58</newEquipmentChargeAmount>
+								<prevEquipmentChargeAmount>14.58</prevEquipmentChargeAmount>
+								<nextEquipmentChargeAmount>14.58</nextEquipmentChargeAmount>
+								<deviceId>356140097113959</deviceId>
+								<deviceName>iPhone 6S 32GB Gold</deviceName>
+								<nextInstallmentNumber>14</nextInstallmentNumber>
+								<totalInstallmentNumber>24</totalInstallmentNumber>
+								<loanOutStanding>145.80</loanOutStanding>
+								<loanNumber>1150179192</loanNumber>
+								<loanAmount>349.99</loanAmount>
+								<loanCode>A</loanCode>
+							</equipmentChargeInfoItem>
+						</equipmentChargeInfoList>
+						<mtnMobileFirstTotalNext>
+							<mtnMonthlyRecurringCharges>34.58</mtnMonthlyRecurringCharges>
+							<mtnOneTimeCharges>-14.99</mtnOneTimeCharges>
+							<mtnTax>1.10</mtnTax>
+							<mtnSurcharges>1.18</mtnSurcharges>
+						</mtnMobileFirstTotalNext>
+						<mtnMobileFirstTotalNew>
+							<mtnMonthlyRecurringCharges>34.58</mtnMonthlyRecurringCharges>
+							<mtnOneTimeCharges>0.00</mtnOneTimeCharges>
+							<mtnTax>1.10</mtnTax>
+							<mtnSurcharges>2.60</mtnSurcharges>
+						</mtnMobileFirstTotalNew>
+						<mtnBicDisclaimerIndicator />
+						<vpcMtnApoAmount>0.00</vpcMtnApoAmount>
+						<vpcMtnTppDDMM />
+						<vpcAPOPlanName />
+						<vpcMdnFootNotesList />
+					</prorateCalcItem>
+				</prorateCalcList>
+				<accountOccInfo />
+				<serviceProductOfferInfoList>
+					<serviceProductOfferInfoItem>
+						<omaInd>O</omaInd>
+						<productGridIndicator>O</productGridIndicator>
+						<productId>975</productId>
+						<productDescription>$5 AUTOPAY AND PAPER-FREE DISC</productDescription>
+						<productOfferTypeCode>PD</productOfferTypeCode>
+						<productOfferEffectiveDate>03/23/2020</productOfferEffectiveDate>
+						<productOfferEndDate>04/22/2020</productOfferEndDate>
+						<productNewChargeAmount>0.00</productNewChargeAmount>
+						<productCurrentChargeAmount>-5.00</productCurrentChargeAmount>
+						<productPreviousChargeAmount>0.00</productPreviousChargeAmount>
+						<productNewChargeNetAmount>0.00</productNewChargeNetAmount>
+						<productCurrentChargeNetAmount>-5.00</productCurrentChargeNetAmount>
+						<productPreviousChargeNetAmount>0.00</productPreviousChargeNetAmount>
+						<albDiscountListCount>0</albDiscountListCount>
+						<albAllowanceListCount>0</albAllowanceListCount>
+						<servicePeriodIndicator>P</servicePeriodIndicator>
+						<spoAdvancedIndicator>N</spoAdvancedIndicator>
+					</serviceProductOfferInfoItem>
+					<serviceProductOfferInfoItem>
+						<omaInd>M</omaInd>
+						<productGridIndicator>B</productGridIndicator>
+						<productId>975</productId>
+						<productDescription>$5 AUTOPAY AND PAPER-FREE DISC</productDescription>
+						<productOfferTypeCode>PD</productOfferTypeCode>
+						<productOfferEffectiveDate>04/23/2020</productOfferEffectiveDate>
+						<productOfferEndDate>05/22/2020</productOfferEndDate>
+						<productNewChargeAmount>-5.00</productNewChargeAmount>
+						<productCurrentChargeAmount>-5.00</productCurrentChargeAmount>
+						<productPreviousChargeAmount>0.00</productPreviousChargeAmount>
+						<productNewChargeNetAmount>-5.00</productNewChargeNetAmount>
+						<productCurrentChargeNetAmount>-5.00</productCurrentChargeNetAmount>
+						<productPreviousChargeNetAmount>0.00</productPreviousChargeNetAmount>
+						<albDiscountListCount>0</albDiscountListCount>
+						<albAllowanceListCount>0</albAllowanceListCount>
+						<servicePeriodIndicator>F</servicePeriodIndicator>
+						<spoAdvancedIndicator>Y</spoAdvancedIndicator>
+					</serviceProductOfferInfoItem>
+				</serviceProductOfferInfoList>
+				<accountEquipmentChargeInfoList />
+				<oneMessageTransactionType>P</oneMessageTransactionType>
+				<emailAddress1 />
+				<emailAddress2 />
+				<orderNumber>0</orderNumber>
+				<lorNumber>0</lorNumber>
+				<suppressedTransactionTypeList />
+				<nextBillTimeStamp>2020-04-15-08.48.10.342944</nextBillTimeStamp>
+				<newMonthlyBillDate>04/23/2020</newMonthlyBillDate>
+				<accountDataOverageInfoOut>
+					<domesticUnitOfMeasure />
+					<domesticDataAllowanceQuantity>0</domesticDataAllowanceQuantity>
+					<domesticDataUsageQuantity>0</domesticDataUsageQuantity>
+					<domesticDataOverageQuantity>0</domesticDataOverageQuantity>
+					<domesticDataChargeAmount>0.00</domesticDataChargeAmount>
+					<domesticStartDate />
+					<domesticEndDate />
+					<InternationUnitOfMeasure />
+					<InternationDataAllowanceQuantity />
+					<InternationDataUsageQuantity />
+					<InternationDataOverageQuantity />
+					<InternationDataChargeAmount />
+					<InternationStartDate />
+					<InternationEndDate />
+				</accountDataOverageInfoOut>
+				<tierDetailSPLANFootnote1 />
+				<tierDetailSPLANFootnote2 />
+				<tierDetailSPLANFootnote3 />
+				<autoPayWithPaperlessInd />
+				<suppressAdvanceIndicator>N</suppressAdvanceIndicator>
+				<balanceDue>
+					<unbilledPayment>-93.87</unbilledPayment>
+					<previousBill>93.87</previousBill>
+					<unbilledOCC>0.00</unbilledOCC>
+					<totUnpaidBalance>0.00</totUnpaidBalance>
+					<paymentMessage>You have paid your bill amount of  $93.87. Thank you!</paymentMessage>
+				</balanceDue>
+			</billProrateCalc_NONE>
+		</serviceResponse>
+	</serviceBody>
+</service>
