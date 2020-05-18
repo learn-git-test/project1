@@ -1,0 +1,270 @@
+{
+    "correlationId": "a12ef18291c02907:-7f4e27e5:1712c5f1101:-2479:dvstest1north-p2T:GlobalRouter:dvstest1north-p2T:CompositeService",
+    "data": {
+        "customer": {
+            "customerId": "0291045495",
+            "emailAddress": "",
+            "customerName": {
+                "lastName": "SS",
+                "firstName": "SS",
+                "businessName": ""
+            },
+            "billAccounts": {
+                "billAccountNo": "00001",
+                "nbs": {
+                    "accountNumber": "0291045495-00001",
+                    "nextBillCycleStartDate": "04/26/2020",
+                    "balancePastDue": {
+                        "pastDueAmount": "0.00",
+                        "paymentsReceived": "0",
+                        "previousBalance": "159.30",
+                        "balanceType": "Current Balance",
+                        "unbilledPayment": "0.00",
+                        "totUnpaidBalance": "159.30",
+                        "paymentMessage": "Your first bill is  $159.30. It is due on 04/17/2020."
+                    },
+                    "monthlyChargesInfo": {
+                        "accountLevelCharges": [
+                            {
+                                "listPrice": "25.00",
+                                "netPrice": "25.00",
+                                "differenceBetweenThisMonthAndNextMonthCharge": "0.00",
+                                "chargeEffectiveDate": "04/26/2020",
+                                "chargeEndDate": "05/25/2020",
+                                "itemType": {
+                                    "isSPO": true,
+                                    "isAddOn": true
+                                },
+                                "chargeRefId": "1614",
+                                "description": "Verizon Protect Home",
+                                "hasNextMonthPromoDiscount": false,
+                                "hasThisMonthPromoDiscount": false,
+                                "thisMonthCharge": "25.00",
+                                "nextMonthCharge": "25.00",
+                                "mobileProtection": true
+                            }
+                        ],
+                        "accountLevelOneTimeCharges": [],
+                        "accountLevelTotal": {
+                            "thisMonthCharge": "25.00",
+                            "nextMonthCharge": "25.00",
+                            "thisMonthSplanLineAccessTotal": "0.00",
+                            "nextMonthSplanLineAccessTotal": "0.00",
+                            "differenceBetweenThisMonthAndNextMonthCharge": "0.00",
+                            "totalOneTimeCharge": "0.00",
+                            "chargeTotals": [
+                                {
+                                    "itemRef": "SPO",
+                                    "differenceBetweenThisAndNextMonthCharge": "0.00",
+                                    "thisMonthCharge": "25.00",
+                                    "nextMonthCharge": "25.00"
+                                }
+                            ],
+                            "nextMonthMrcWithNoAddOn": "0.00",
+                            "newMonthMrcWithNoAddOn": "0.00"
+                        },
+                        "mtnLevelChargeDetails": [
+                            {
+                                "mtn": "9086350761",
+                                "nickname": "SS SS",
+                                "thisMonthCharge": "84.99",
+                                "nextMonthCharge": "84.99",
+                                "differenceBetweenThisMonthAndNextMonthCharge": "0.00",
+                                "thisMonthSurcharges": "2.46",
+                                "previousMonthCharge": "83.00",
+                                "nextMonthSurcharges": "2.46",
+                                "differenceBetweenThisMonthAndNextMonthSurcharges": "0.00",
+                                "thisMonthTax": "1.94",
+                                "nextMonthTax": "1.94",
+                                "differenceBetweenThisMonthAndNextMonthTax": "0.00",
+                                "suppressAdvInd": "N",
+                                "chargeDetails": [
+                                    {
+                                        "listPrice": "80.00",
+                                        "netPrice": "80.00",
+                                        "differenceBetweenThisMonthAndNextMonthCharge": "0.00",
+                                        "chargeEffectiveDate": "04/26/2020",
+                                        "chargeEndDate": "05/25/2020",
+                                        "itemType": {
+                                            "isPLAN": true
+                                        },
+                                        "chargeRefId": "26872",
+                                        "description": "Start Unlimited",
+                                        "hasNextMonthPromoDiscount": false,
+                                        "hasThisMonthPromoDiscount": false,
+                                        "promo1Id": "0",
+                                        "promo1Discount": "0.00",
+                                        "promo2Id": "0",
+                                        "promo2Discount": "0.00",
+                                        "promo3Id": "0",
+                                        "promo3Discount": "0.00",
+                                        "thisMonthCharge": "80.00",
+                                        "nextMonthCharge": "80.00",
+                                        "mobileProtection": false
+                                    },
+                                    {
+                                        "listPrice": "1.99",
+                                        "netPrice": "1.99",
+                                        "differenceBetweenThisMonthAndNextMonthCharge": "0.00",
+                                        "chargeEffectiveDate": "03/26/2020",
+                                        "chargeEndDate": "04/25/2020",
+                                        "itemType": {
+                                            "isSFO": true,
+                                            "isAddOn": true
+                                        },
+                                        "chargeRefId": "65616",
+                                        "description": "Detailed Billing",
+                                        "hasNextMonthPromoDiscount": false,
+                                        "hasThisMonthPromoDiscount": false,
+                                        "promo1Id": "0",
+                                        "promo1Discount": "0.00",
+                                        "promo2Id": "0",
+                                        "promo2Discount": "0.00",
+                                        "promo3Id": "0",
+                                        "promo3Discount": "0.00",
+                                        "thisMonthCharge": "1.99",
+                                        "nextMonthCharge": "1.99",
+                                        "mobileProtection": false
+                                    },
+                                    {
+                                        "listPrice": "3.00",
+                                        "netPrice": "3.00",
+                                        "differenceBetweenThisMonthAndNextMonthCharge": "0.00",
+                                        "chargeEffectiveDate": "04/26/2020",
+                                        "chargeEndDate": "05/25/2020",
+                                        "itemType": {
+                                            "isSFO": true,
+                                            "isAddOn": true
+                                        },
+                                        "chargeRefId": "72188",
+                                        "description": "Roadside Assistance",
+                                        "hasNextMonthPromoDiscount": false,
+                                        "hasThisMonthPromoDiscount": false,
+                                        "promo1Id": "0",
+                                        "promo1Discount": "0.00",
+                                        "promo2Id": "0",
+                                        "promo2Discount": "0.00",
+                                        "promo3Id": "0",
+                                        "promo3Discount": "0.00",
+                                        "thisMonthCharge": "3.00",
+                                        "nextMonthCharge": "3.00",
+                                        "mobileProtection": false
+                                    }
+                                ],
+                                "totalOneTimeCharge": "0.00",
+                                "newMonthMtnMrcWithNoAddOn": "75.01",
+                                "nextMonthMtnMrcWithNoAddOn": "75.01",
+                                "newMonthGrandTotalWithTaxes": "89.39",
+                                "nextMonthGrandTotalWithTaxes": "89.39",
+                                "chargeTotals": [
+                                    {
+                                        "itemRef": "PPLAN",
+                                        "differenceBetweenThisAndNextMonthCharge": "0.00",
+                                        "thisMonthCharge": "80.00",
+                                        "nextMonthCharge": "80.00"
+                                    },
+                                    {
+                                        "itemRef": "Total Addons",
+                                        "differenceBetweenThisAndNextMonthCharge": "0.00",
+                                        "thisMonthCharge": "4.99",
+                                        "nextMonthCharge": "4.99"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "monthlyTotalsInfo": {
+                        "thisMonthCharge": "115.99",
+                        "thisMonthChargeDateRange": "03/26/2020-04/25/2020",
+                        "nextMonthCharge": "115.99",
+                        "nextMonthChargeDateRange": "04/26/2020-05/25/2020",
+                        "differenceBetweenThisMonthAndNextMonthCharge": "0.00",
+                        "thisMonthChargeFormattedDateRange": "Mar 26,2020-Apr 25,2020",
+                        "nextMonthChargeFormattedDateRange": "Apr 26,2020-May 25,2020",
+                        "previousCycleFormattedDateRange": "Mar 26,2020-Mar 26,2020"
+                    },
+                    "surchargesInfo": {
+                        "thisMonthCharge": "2.46",
+                        "nextMonthCharge": "2.46",
+                        "differenceBetweenThisMonthAndNextMonthSurcharges": "0.00"
+                    },
+                    "taxesAndFeesInfo": {
+                        "thisMonthCharge": "3.54",
+                        "nextMonthCharge": "3.54",
+                        "differenceBetweenThisMonthAndNextMonthTax": "0.00"
+                    },
+                    "autoPayDiscount": {
+                        "accountTotalAutoPayDiscount": "10.00",
+                        "isCustomerEnrolledForAutopay": "N"
+                    },
+                    "barGraphDetails": {
+                        "invoiceCount": "1",
+                        "invoiceLastMonth": "159.30",
+                        "invoiceLastMonthCycleEnddate": "03/25/2020",
+                        "invoiceTwoMonthPrevious": "0.00",
+                        "invoiceTwoMonthCycleEnddate": ""
+                    },
+                    "nbsIndicators": {
+                        "languageIndicator": "E",
+                        "partialBillIndicator": "N"
+                    }
+                },
+                "billSummary": {
+                    "grandTotal": {
+                        "thisMonthCharge": "115.99",
+                        "nextMonthCharge": "115.99"
+                    },
+                    "dateRange": {
+                        "thisMonth": "03/26/2020-04/25/2020",
+                        "nextMonth": "04/26/2020-05/25/2020"
+                    },
+                    "planAccessFeeTotal": {
+                        "thisMonthCharge": "80.00",
+                        "nextMonthCharge": "80.00"
+                    },
+                    "planCharge": {
+                        "thisMonthCharge": "80.00",
+                        "nextMonthCharge": "80.00"
+                    },
+                    "lineAccessFees": {
+                        "thisMonthCharge": "0.00",
+                        "nextMonthCharge": "0.00"
+                    },
+                    "devicePayments": {
+                        "thisMonthCharge": "0.00",
+                        "nextMonthCharge": "0.00"
+                    },
+                    "surcharges": {
+                        "thisMonthCharge": "2.46",
+                        "nextMonthCharge": "2.46"
+                    },
+                    "taxesAndFees": {
+                        "thisMonthCharge": "3.54",
+                        "nextMonthCharge": "3.54"
+                    },
+                    "totalAddOns": {
+                        "thisMonthCharge": "4.99",
+                        "nextMonthCharge": "4.99"
+                    },
+                    "appleMusic": {
+                        "thisMonthCharge": "0.00",
+                        "nextMonthCharge": "0.00"
+                    },
+                    "mobileProtection": {
+                        "thisMonthCharge": "25.00",
+                        "nextMonthCharge": "25.00"
+                    },
+                    "autoPayDiscount": {
+                        "accountTotalAutoPayDiscount": "10.00",
+                        "isCustomerEnrolledForAutopay": "N"
+                    },
+                    "taxGrandTotal": {
+                        "thisMonthCharge": "6.00",
+                        "nextMonthCharge": "6.00"
+                    }
+                }
+            },
+            "nbsTrackingId": ""
+        }
+    }
+}

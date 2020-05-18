@@ -1,0 +1,387 @@
+{
+    "correlationId": "171e7d666b307370:2b8da8f9:171f5333772:1d74:tdclpb6vva103T:GlobalRouter:tdclpb6vva110T:CompositeServ",
+    "data": {
+        "customer": {
+            "customerId": "425521279",
+            "emailAddress": "",
+            "customerName": {
+                "lastName": "LUCAS",
+                "firstName": "ROBERT",
+                "businessName": ""
+            },
+            "billAccounts": {
+                "billAccountNo": "1",
+                "nbs": {
+                    "accountNumber": "425521279-00001",
+                    "nextBillCycleStartDate": "06/08/2020",
+                    "balancePastDue": {
+                        "pastDueAmount": "0.00",
+                        "paymentsReceived": "0",
+                        "previousBalance": "117.61",
+                        "balanceType": "Current Balance",
+                        "unbilledPayment": "-117.61",
+                        "totUnpaidBalance": "0.00",
+                        "paymentMessage": "You have paid your bill amount of  $117.61. Thank you!",
+                        "unbilledOCC": "0.00"
+                    },
+                    "monthlyChargesInfo": {
+                        "tierFootnote1": "Your total plan cost for phones is $90.00 or $45.00/phone for 2 phones. Additional plan charges for non-phone devices may apply.",
+                        "tierFootnote2": "Save  $10 when you're enrolled in Auto Pay (using bank account or debit card) and paper-free billing.",
+                        "tierFootnote3": null,
+                        "accountLevelCharges": [
+                            {
+                                "listPrice": "0.00",
+                                "netPrice": "0.00",
+                                "differenceBetweenThisMonthAndNextMonthCharge": "0.00",
+                                "chargeEffectiveDate": "06/08/2020",
+                                "chargeEndDate": "07/07/2020",
+                                "itemType": {
+                                    "isPLAN": true
+                                },
+                                "chargeRefId": "13646",
+                                "dataAllowanceDesc": "Unlimited-Data Unlimited-Talk Unlimited-Text",
+                                "description": "55+ Unlimited Plan",
+                                "hasNextMonthPromoDiscount": true,
+                                "hasThisMonthPromoDiscount": false,
+                                "promo1Id": "0",
+                                "promo1Discount": "0.00",
+                                "promo2Id": "0",
+                                "promo2Discount": "0.00",
+                                "promo3Id": "0",
+                                "promo3Discount": "0.00",
+                                "mobileProtection": false,
+                                "thisMonthCharge": "0.00"
+                            },
+                            {
+                                "listPrice": "3.99",
+                                "netPrice": "3.99",
+                                "nextMonthCharge": "3.99",
+                                "itemType": {
+                                    "isOCC": true
+                                },
+                                "occEventType": "MDSNP",
+                                "chargeRefId": "0",
+                                "description": "Safe Wi-fi",
+                                "hasNextMonthPromoDiscount": false,
+                                "hasThisMonthPromoDiscount": false,
+                                "recurringIndicator": "Y",
+                                "balanceDueIndicator": "N",
+                                "mobileProtection": false,
+                                "thisMonthCharge": "3.99"
+                            },
+                            {
+                                "listPrice": "3.99",
+                                "netPrice": "3.99",
+                                "nextMonthCharge": "3.99",
+                                "itemType": {
+                                    "isOCC": true
+                                },
+                                "chargeRefId": "0",
+                                "description": "Content Charge",
+                                "hasNextMonthPromoDiscount": false,
+                                "hasThisMonthPromoDiscount": false,
+                                "recurringIndicator": "Y",
+                                "balanceDueIndicator": "N",
+                                "mobileProtection": false,
+                                "thisMonthCharge": "3.99"
+                            }
+                        ],
+                        "accountLevelOneTimeCharges": [],
+                        "accountLevelTotal": {
+                            "thisMonthCharge": "7.98",
+                            "nextMonthCharge": "7.98",
+                            "thisMonthSplanLineAccessTotal": "100.00",
+                            "nextMonthSplanLineAccessTotal": "100.00",
+                            "differenceBetweenThisMonthAndNextMonthCharge": "0.00",
+                            "totalOneTimeCharge": "0.00",
+                            "chargeTotals": null,
+                            "nextMonthMrcWithNoAddOn": "0.00",
+                            "newMonthMrcWithNoAddOn": "0.00",
+                            "nextMonthAcctLevelSurcharges": "0.00",
+                            "newMonthAcctLevelSurcharges": "0.00",
+                            "nextMonthAccountLevelTax": "0.00",
+                            "newMonthAccountLevelTax": "0.00"
+                        },
+                        "mtnLevelPlanChargeTotal": null,
+                        "mtnLevelChargeDetails": [
+                            {
+                                "mtn": "9412045045",
+                                "nickname": "ROBERT'S IPHONE",
+                                "thisMonthCharge": "45.00",
+                                "nextMonthCharge": "45.00",
+                                "differenceBetweenThisMonthAndNextMonthCharge": "0.00",
+                                "thisMonthSurcharges": "2.41",
+                                "previousMonthCharge": "45.00",
+                                "nextMonthSurcharges": "2.41",
+                                "differenceBetweenThisMonthAndNextMonthSurcharges": "0.00",
+                                "thisMonthTax": "2.48",
+                                "nextMonthTax": "2.48",
+                                "differenceBetweenThisMonthAndNextMonthTax": "0.00",
+                                "suppressAdvInd": "N",
+                                "autoPayDiscount": null,
+                                "chargeDetails": [
+                                    {
+                                        "listPrice": "45.00",
+                                        "netPrice": "45.00",
+                                        "differenceBetweenThisMonthAndNextMonthCharge": "0.00",
+                                        "chargeEffectiveDate": "06/08/2020",
+                                        "chargeEndDate": "07/07/2020",
+                                        "itemType": {
+                                            "isNAF": true
+                                        },
+                                        "chargeRefId": "85853",
+                                        "description": "Phone Plan",
+                                        "hasNextMonthPromoDiscount": true,
+                                        "hasThisMonthPromoDiscount": false,
+                                        "promo1Id": "0",
+                                        "promo1Discount": "0.00",
+                                        "promo2Id": "0",
+                                        "promo2Discount": "0.00",
+                                        "promo3Id": "0",
+                                        "promo3Discount": "0.00",
+                                        "mobileProtection": false,
+                                        "thisMonthCharge": "45.00"
+                                    }
+                                ],
+                                "oneTimeChargeDetails": null,
+                                "vpcApoPlanName": null,
+                                "vpcMtnApoAmount": null,
+                                "totalOneTimeCharge": "0.00",
+                                "newMonthMtnMrcWithNoAddOn": "45.00",
+                                "nextMonthMtnMrcWithNoAddOn": "45.00",
+                                "newMonthGrandTotalWithTaxes": "49.89",
+                                "nextMonthGrandTotalWithTaxes": "49.89",
+                                "chargeTotals": [
+                                    {
+                                        "itemRef": "NAF",
+                                        "differenceBetweenThisAndNextMonthCharge": "0.00",
+                                        "thisMonthCharge": "45.00",
+                                        "nextMonthCharge": "45.00"
+                                    }
+                                ],
+                                "isMtnChangeInd": false
+                            },
+                            {
+                                "mtn": "9416266171",
+                                "nickname": "EVIE'S WATCH",
+                                "thisMonthCharge": "10.00",
+                                "nextMonthCharge": "10.00",
+                                "differenceBetweenThisMonthAndNextMonthCharge": "0.00",
+                                "thisMonthSurcharges": "2.12",
+                                "previousMonthCharge": "10.00",
+                                "nextMonthSurcharges": "2.12",
+                                "differenceBetweenThisMonthAndNextMonthSurcharges": "0.00",
+                                "thisMonthTax": "1.30",
+                                "nextMonthTax": "1.30",
+                                "differenceBetweenThisMonthAndNextMonthTax": "0.00",
+                                "suppressAdvInd": "N",
+                                "autoPayDiscount": null,
+                                "chargeDetails": [
+                                    {
+                                        "listPrice": "10.00",
+                                        "netPrice": "10.00",
+                                        "differenceBetweenThisMonthAndNextMonthCharge": "0.00",
+                                        "chargeEffectiveDate": "06/08/2020",
+                                        "chargeEndDate": "07/07/2020",
+                                        "itemType": {
+                                            "isNAF": true
+                                        },
+                                        "chargeRefId": "85619",
+                                        "description": "Numbershare Line Access",
+                                        "hasNextMonthPromoDiscount": true,
+                                        "hasThisMonthPromoDiscount": false,
+                                        "promo1Id": "0",
+                                        "promo1Discount": "0.00",
+                                        "promo2Id": "0",
+                                        "promo2Discount": "0.00",
+                                        "promo3Id": "0",
+                                        "promo3Discount": "0.00",
+                                        "mobileProtection": false,
+                                        "thisMonthCharge": "10.00"
+                                    }
+                                ],
+                                "oneTimeChargeDetails": null,
+                                "vpcApoPlanName": null,
+                                "vpcMtnApoAmount": null,
+                                "totalOneTimeCharge": "0.00",
+                                "newMonthMtnMrcWithNoAddOn": "10.00",
+                                "nextMonthMtnMrcWithNoAddOn": "10.00",
+                                "newMonthGrandTotalWithTaxes": "13.42",
+                                "nextMonthGrandTotalWithTaxes": "13.42",
+                                "chargeTotals": [
+                                    {
+                                        "itemRef": "NAF",
+                                        "differenceBetweenThisAndNextMonthCharge": "0.00",
+                                        "thisMonthCharge": "10.00",
+                                        "nextMonthCharge": "10.00"
+                                    }
+                                ],
+                                "isMtnChangeInd": false
+                            },
+                            {
+                                "mtn": "9418152683",
+                                "nickname": "EVIE'S IPHONE",
+                                "thisMonthCharge": "45.00",
+                                "nextMonthCharge": "45.00",
+                                "differenceBetweenThisMonthAndNextMonthCharge": "0.00",
+                                "thisMonthSurcharges": "2.41",
+                                "previousMonthCharge": "45.00",
+                                "nextMonthSurcharges": "2.41",
+                                "differenceBetweenThisMonthAndNextMonthSurcharges": "0.00",
+                                "thisMonthTax": "2.48",
+                                "nextMonthTax": "2.48",
+                                "differenceBetweenThisMonthAndNextMonthTax": "0.00",
+                                "suppressAdvInd": "N",
+                                "autoPayDiscount": null,
+                                "chargeDetails": [
+                                    {
+                                        "listPrice": "45.00",
+                                        "netPrice": "45.00",
+                                        "differenceBetweenThisMonthAndNextMonthCharge": "0.00",
+                                        "chargeEffectiveDate": "06/08/2020",
+                                        "chargeEndDate": "07/07/2020",
+                                        "itemType": {
+                                            "isNAF": true
+                                        },
+                                        "chargeRefId": "85853",
+                                        "description": "Phone Plan",
+                                        "hasNextMonthPromoDiscount": true,
+                                        "hasThisMonthPromoDiscount": false,
+                                        "promo1Id": "0",
+                                        "promo1Discount": "0.00",
+                                        "promo2Id": "0",
+                                        "promo2Discount": "0.00",
+                                        "promo3Id": "0",
+                                        "promo3Discount": "0.00",
+                                        "mobileProtection": false,
+                                        "thisMonthCharge": "45.00"
+                                    }
+                                ],
+                                "oneTimeChargeDetails": null,
+                                "vpcApoPlanName": null,
+                                "vpcMtnApoAmount": null,
+                                "totalOneTimeCharge": "0.00",
+                                "newMonthMtnMrcWithNoAddOn": "45.00",
+                                "nextMonthMtnMrcWithNoAddOn": "45.00",
+                                "newMonthGrandTotalWithTaxes": "49.89",
+                                "nextMonthGrandTotalWithTaxes": "49.89",
+                                "chargeTotals": [
+                                    {
+                                        "itemRef": "NAF",
+                                        "differenceBetweenThisAndNextMonthCharge": "0.00",
+                                        "thisMonthCharge": "45.00",
+                                        "nextMonthCharge": "45.00"
+                                    }
+                                ],
+                                "isMtnChangeInd": false
+                            }
+                        ]
+                    },
+                    "monthlyTotalsInfo": {
+                        "thisMonthCharge": "121.18",
+                        "thisMonthChargeDateRange": "05/08/2020-06/07/2020",
+                        "nextMonthCharge": "121.18",
+                        "nextMonthChargeDateRange": "06/08/2020-07/07/2020",
+                        "differenceBetweenThisMonthAndNextMonthCharge": "0.00",
+                        "thisMonthChargeFormattedDateRange": "May 08,2020-Jun 07,2020",
+                        "nextMonthChargeFormattedDateRange": "Jun 08,2020-Jul 07,2020",
+                        "previousCycleFormattedDateRange": "Apr 08,2020-May 07,2020"
+                    },
+                    "surchargesInfo": {
+                        "thisMonthCharge": "6.94",
+                        "nextMonthCharge": "6.94",
+                        "differenceBetweenThisMonthAndNextMonthSurcharges": "0.00"
+                    },
+                    "taxesAndFeesInfo": {
+                        "thisMonthCharge": "6.26",
+                        "nextMonthCharge": "6.26",
+                        "differenceBetweenThisMonthAndNextMonthTax": "0.00"
+                    },
+                    "autoPayDiscount": {
+                        "accountTotalAutoPayDiscount": "10.00",
+                        "isCustomerEnrolledForAutopay": "Y"
+                    },
+                    "barGraphDetails": {
+                        "invoiceCount": "25",
+                        "invoiceLastMonth": "117.61",
+                        "invoiceLastMonthCycleEnddate": "04/07/2020",
+                        "invoiceTwoMonthPrevious": "117.70",
+                        "invoiceTwoMonthCycleEnddate": "03/07/2020"
+                    },
+                    "discountsPendingActionDetails": {
+                        "apoPaperlessAmount": "-10.00",
+                        "deviceTradeIns": null,
+                        "otherDeviceTradeIns": null,
+                        "totalPendingDiscount": "-10.00",
+                        "newMonthlyTotalWithPendingDiscounts": "111.18"
+                    },
+                    "occTotals": null,
+                    "nbsIndicators": {
+                        "languageIndicator": "E",
+                        "partialBillIndicator": "N"
+                    }
+                },
+                "billSummary": {
+                    "grandTotal": {
+                        "thisMonthCharge": "121.18",
+                        "nextMonthCharge": "121.18"
+                    },
+                    "subTotal": {
+                        "thisMonthCharge": "107.98",
+                        "nextMonthCharge": "107.98"
+                    },
+                    "dateRange": {
+                        "thisMonth": "05/08/2020-06/07/2020",
+                        "nextMonth": "06/08/2020-07/07/2020"
+                    },
+                    "planAccessFeeTotal": {
+                        "thisMonthCharge": "100.00",
+                        "nextMonthCharge": "100.00"
+                    },
+                    "planCharge": {
+                        "thisMonthCharge": "0.00",
+                        "nextMonthCharge": "0.00"
+                    },
+                    "lineAccessFees": {
+                        "thisMonthCharge": "100.00",
+                        "nextMonthCharge": "100.00"
+                    },
+                    "devicePayments": {
+                        "thisMonthCharge": "0.00",
+                        "nextMonthCharge": "0.00"
+                    },
+                    "surcharges": {
+                        "thisMonthCharge": "6.94",
+                        "nextMonthCharge": "6.94"
+                    },
+                    "taxesAndFees": {
+                        "thisMonthCharge": "6.26",
+                        "nextMonthCharge": "6.26"
+                    },
+                    "totalAddOns": {
+                        "thisMonthCharge": "0.00",
+                        "nextMonthCharge": "0.00"
+                    },
+                    "appleMusic": {
+                        "thisMonthCharge": "0.00",
+                        "nextMonthCharge": "0.00"
+                    },
+                    "mobileProtection": {
+                        "thisMonthCharge": "0.00",
+                        "nextMonthCharge": "0.00"
+                    },
+                    "autoPayDiscount": {
+                        "accountTotalAutoPayDiscount": "10.00",
+                        "isCustomerEnrolledForAutopay": "Y"
+                    },
+                    "taxGrandTotal": {
+                        "thisMonthCharge": "13.20",
+                        "nextMonthCharge": "13.20"
+                    }
+                }
+            },
+            "nbsTrackingId": ""
+        },
+        "comparisonDetails": null
+    }
+}
