@@ -1,0 +1,45 @@
+Swathi, I joined QTB meeting today and JOE brought an issue on POST order response not same as PRE order response.
+
+Issues listed:
+	1. Pre is working but POST is going to ORW path
+	2. Check customer table if the order is delayed
+	3. Issue : Apo is not sent in post order
+	4. Pre order sends APO
+	5. Missing account level SPO's in POST order
+
+
+I am still working on this.. He gave me the  xml's
+
+
+I am ot able to proceed much on Joe's issue..
+I tried looking into the tables to see any db timestamp difference when the post order is executed and order is placed
+
+
+
+32    8025039303   Plan change
+90    8027343780   A /EUP
+49.58 8028628626   Plan change/ EUP
+----
+171.58
+  6.84
+-------
+178.42 
+
+
+250393030 : 80
+8025039303 : 32
+8028628626 : 49.58
+
+
+
+
+
+
+multiLineSeqNumber 1
+8025039303
+
+multiLineSeqNumber 2
+8027343872
+
+multiLineSeqNumber 3
+8028628626
