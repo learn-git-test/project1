@@ -26,7 +26,14 @@ I tried looking into the tables to see any db timestamp difference when the post
 178.42 
 
 
+
 Edited this file from local develop2 branch 
+
+Edited this file from git hub
+
+Updated with the edits from both develop2 branch and git hub
+
+385967652593d2884429792993ba79096418dd92
 250393030 : 80
 8025039303 : 32
 8028628626 : 49.58
